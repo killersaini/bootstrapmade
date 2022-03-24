@@ -1,0 +1,420 @@
+.logo-image{
+    width:6%;
+}
+
+.upper-header  .header-logo  a{
+    text-decoration: none;
+}
+
+.upper-header  .header-logo  strong{
+   text-transform: uppercase;
+   margin-left: 6px;
+   font-size: 25px;
+   color: #1e5f8d;
+}
+
+.upper-header  .header-logo  span{
+    color: #00a6eb;
+}
+
+.upper-header  .header-logo  img{
+    vertical-align: text-bottom;
+}
+
+.header-size-item{
+list-style: none;
+display: inline;
+padding: 15px;
+}
+
+.font-change{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #1e5f8d;
+    cursor: pointer;
+}
+
+.header-icons-item{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+}
+
+.header-icons-item > a{
+    text-decoration: none;
+    padding: 13px 12px;
+    background-color:#00a6eb;
+    color: white;
+    border-radius: 5px;
+}
+
+.size-change{
+    font-size: 22px;
+padding: 8px 12px;
+border: rgb(204, 201, 201) solid 1px;
+border-radius: 5px;
+color: rgb(116, 113, 113) ;
+cursor: pointer;
+}
+
+.download-gap{
+    margin-right: 10px;
+}
+
+.section-logo{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-left: 4px solid #18d26e;
+    padding-left: 10px;
+}
+
+.section-menu{
+    font-weight: bold;
+}
+
+.carousel-item > img{
+   opacity: .6;
+}
+
+.carousel-caption > a{
+    text-decoration: none;
+    padding: 15px 60px;
+    background-color: #18d26e;
+    color: white;
+    border-radius: 50px;
+}
+
+.feature-services-box{
+    background-color: black;
+    padding: 30px;
+}
+
+.briefcase-color{
+    font-size: 45px;
+    color: #18d26e;
+}
+
+.feature-services-header > h4{
+    color: white;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.feature-services-header > h4:hover{
+    color: #18d26e;
+}
+
+.feature-services-summary > p{
+    color: white;
+}
+
+.about-us{
+    padding: 40px 0;
+}
+
+.about-us-header > h1{
+    color: black;
+}
+
+.about-us-box{
+    margin-top: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.233);
+    text-align: center;
+}
+
+.about-us-image > img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.about-us-icon > i{
+    font-size: 35px;
+    padding: 15px 20px;
+    background-color: #18d26e;
+    border-radius: 100%;
+    color: white;
+    border: white solid 5px;
+    margin-top: -50%;
+    transition: all .3s;
+}
+
+.about-us-box:hover .about-us-icon > i{
+    background-color: white;
+    color:#18d26e;
+}
+
+.services{
+    padding: 40px 0;
+}
+
+.service-icon{
+    font-size: 35px;
+    color: #18d26e;
+}
+
+.services-header > h5{
+    color: black;
+    font-weight: bold;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.services-header > h5:hover{
+    color: #18d26e;
+}
+
+.call-action{
+    background-image: linear-gradient(90deg,#3a6186,#89253e);
+}
+
+.call-action-box{
+    padding: 40px;
+}
+
+.action-button > a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    border: white solid 1px;
+    border-radius: 50px;
+    transition: all .3s;
+}
+
+.action-button > a:hover{
+    background-color:#18d26e;
+    border: #18d26e solid 1px;
+}
+
+.our-skills{
+    padding: 80px 0;
+}
+
+.val{
+    float: right;
+}
+
+.facts{
+    padding: 40px 0;
+}
+
+.facts-box{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.facts-text > span{
+    font-size: 55px;
+    font-weight: bold;
+    color: #18d26e;
+}
+
+.protfolio{
+    padding: 40px 0;
+}
+
+.portfolio-box{
+    margin-top: 45px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.205);
+    border-radius: 5px 5px 0 0;
+}
+
+.portfolio-app > h6{
+    color: rgb(180, 174, 174);
+}
+
+.portfolio-image > img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.clients{
+    padding: 40px 0;
+}
+
+.testmonials-box{
+    width: 100%;
+    text-align: center;
+    margin-top: 55px;
+    line-height: 2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.11);
+    padding: 25px;
+}
+
+.testmonials{
+    padding: 40px 0;
+}
+
+.testmonials-image > img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.team{
+    padding: 40px 0;
+    position: relative;
+}
+
+.social-icons > i{
+    padding-right: 8px;
+}
+
+.team-info{
+    color: white;
+    width: 261.5px;
+    height: 261.5px;
+    background-color: black;
+    position: absolute;
+    top: 40.6%;
+    left: 8.7%;
+    opacity: 0;
+    text-align: center;
+    padding-top: 50px;
+    transition: all .7s;
+}
+
+.team-info:hover{
+    padding-top: 100px;
+    opacity: .7;
+}
+
+.team-info-1{
+    color: white;
+    width: 261.5px;
+    height: 261.5px;
+    background-color: black;
+    position: absolute;
+    top: 40.6%;
+    left: 29.8%;
+    opacity: 0;
+    text-align: center;
+    padding-top: 50px;
+    transition: all .7s;
+}
+
+.team-info-1:hover{
+    padding-top: 100px;
+    opacity: .7;
+}
+
+.team-info-2{
+    color: white;
+    width: 261.5px;
+    height: 261.5px;
+    background-color: black;
+    position: absolute;
+    top: 40.6%;
+    right: 29.8%;
+    opacity: 0;
+    text-align: center;
+    padding-top: 50px;
+    transition: all .7s;
+}
+
+.team-info-2:hover{
+    padding-top: 100px;
+    opacity: .7;
+}
+
+.team-info-3{
+    color: white;
+    width: 261.5px;
+    height: 261.5px;
+    background-color: black;
+    position: absolute;
+    top: 40.6%;
+    right: 8.7%;
+    opacity: 0;
+    text-align: center;
+    padding-top: 50px;
+    transition: all .7s;
+}
+
+.team-info-3:hover{
+    padding-top: 100px;
+    opacity: .7;
+}
+
+.team-header > h5{
+    font-weight: bold;
+}
+
+.contact-us{
+    padding: 40px 0;
+}
+
+.contact-box{
+    text-align: center;
+    margin-top: 55px;
+    padding: 35px;
+    line-height: 2;
+}
+
+.contact-icon> i{
+    font-size: 45px;
+    color:#18d26e ;
+    
+}
+
+.contact-header > h5{
+    color: gray;
+}
+
+.form-box{
+    background-color: white;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.upper-footer{
+    padding: 40px 0;
+}
+
+.upper-footer-menu-item{
+    padding: 12px 0;
+    border-bottom: gray solid 1px;
+    text-align: left;
+}
+
+.upper-footer-menu-item > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    transition: all .3s;
+}
+
+.upper-footer-menu-item > a:hover{
+    color: #18d26e;
+}
+
+.chevron-change{
+    margin-right: 10px;
+}
+
+.footer-icons{
+    margin-top: 65px;
+}
+
+.footer-icons > i{
+    color: white;
+    margin-right: 10px;
+    padding: 10px 12px;
+    background-color: gray;
+    border-radius: 100%;
+    transition: all .3s;
+}
+
+.footer-icons > i:hover{
+    background-color: #18d26e;
+}
+
+.footer{
+    padding: 20px 0;
+    background-color: black;
+}
+
+.valve{
+    color: #18d26e;
+    cursor: pointer;
+}
